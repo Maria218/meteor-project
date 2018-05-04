@@ -75,7 +75,48 @@ class Home extends Component {
             <textarea placeholder="Description" value={this.state.desc} onChange={this.handleDescChange} />
           </label>
           <button type="submit">Submit</button>
+        </form><br />
+
+        <form>
+          <label>
+            Full Name: <br />
+            <input type="text" placeholder="Name"/>
+          </label><br />
+          <label>
+            Username:<br />
+            <input type="text" placeholder="Email Address" />
+          </label><br />
+          <label>
+            Email:<br />
+            <input type="text" placeholder="Email Address" />
+          </label><br />
+          <label>
+            Password:<br />
+            <input type="text" />
+          </label><br />
+          <label>
+            Confirm Password:<br />
+            <input type="text" />
+          </label><br />
+          <label>
+            Phone Number:<br />
+            <input type="number" />
+          </label><br /><br />
+          <button type="submit">Join Us</button>
         </form>
+        <br /><br /><br />
+
+        <form>
+          <label>
+            Email or Username:<br />
+            <input type="text" />
+          </label><br />
+          <label>
+            Password:<br />
+            <input type="text" />
+          </label><br /><br />
+          <button type="submit">Sign In</button>
+        </form><br />
       </div>
     )
   }
